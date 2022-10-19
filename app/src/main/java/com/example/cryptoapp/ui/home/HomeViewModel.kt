@@ -5,9 +5,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.cryptoapp.model.home.CryptoResponse
 import com.example.cryptoapp.utils.NetworkResult
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+@HiltViewModel
 class HomeViewModel @Inject constructor(private val repository: HomeRepository): ViewModel() {
 
     val cryptoResponse: MutableLiveData<CryptoResponse?> = MutableLiveData()
@@ -30,7 +32,6 @@ class HomeViewModel @Inject constructor(private val repository: HomeRepository):
                 onError.value = request.message
                 isLoading.value = false
             }
-            else -> {}
         }
     }
 }
