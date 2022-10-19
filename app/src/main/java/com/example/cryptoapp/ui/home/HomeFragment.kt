@@ -1,17 +1,12 @@
-package com.example.cryptoapp.ui
+package com.example.cryptoapp.ui.home
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.example.cryptoapp.R
 import com.example.cryptoapp.base.BaseFragment
 import com.example.cryptoapp.databinding.FragmentHomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
-class HomeFragment : BaseFragment<FragmentHomeBinding,HomeViewModel> (
+@AndroidEntryPoint
+class HomeFragment : BaseFragment<FragmentHomeBinding, HomeViewModel> (
     FragmentHomeBinding::inflate
         ) {
     override val viewModel by viewModels<HomeViewModel> ()
