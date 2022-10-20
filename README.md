@@ -16,9 +16,14 @@ coinmarketcap.com üzerinden aldığımız API üzerinden gelen 10 adet cryptocu
 
 + [Click](https://coinmarketcap.com/api/)
 
+## Video Kaynak
++ [Click](https://www.youtube.com/watch?v=XHPWQdbB8xI&t=28s)
+
 
 ## Preview
 coinmarketcap.com üzerinden alınan API sayesinde name, price ve icon bilgilerine ulaşılabiliyor. Ayrıca detay ekranda daha fazla bilgi ile karşılaşıyoruz.
+
+
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/84986629/196827190-cf92ef28-86a4-436f-a171-69cf1883ec24.gif)
 
