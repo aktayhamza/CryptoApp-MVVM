@@ -16,8 +16,6 @@ coinmarketcap.com üzerinden aldığımız API üzerinden gelen 10 adet cryptocu
 
 + [Click](https://coinmarketcap.com/api/)
 
-## Video Kaynak
-+ [Click](https://www.youtube.com/watch?v=XHPWQdbB8xI&t=28s)
 
 
 ## Preview
